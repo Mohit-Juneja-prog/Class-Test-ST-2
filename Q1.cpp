@@ -42,7 +42,7 @@ int main()
  
     int minIndex = findMinIndex(arr, n);
  
-    if (minIndex != n-1) {
+    if (minIndex != n) {
         cout << "The minimum index of the repeating element is " << minIndex;
     }
     else {
